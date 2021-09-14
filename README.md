@@ -18,8 +18,10 @@ addons:
     token:
       secure: "**************************" # encrypted value of your token
 
+```
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
 
 ^^ idk what but we might need this
+```
